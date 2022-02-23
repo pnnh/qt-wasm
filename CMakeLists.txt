@@ -15,9 +15,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(Qt6 COMPONENTS Core Gui Quick REQUIRED)
 
 set(PROJECT_SOURCES
-        main.cpp
-        src/md5.cc src/md5.h
-        src/wasm/wasm.h)
+        main.cpp)
 
 qt_add_executable(qt-wasm
         MANUAL_FINALIZATION
